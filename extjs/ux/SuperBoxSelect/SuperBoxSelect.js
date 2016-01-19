@@ -194,7 +194,7 @@ Ext.ux.form.SuperBoxSelect = Ext.extend(Ext.ux.form.SuperBoxSelect,Ext.form.Comb
             usedRecords     : new Ext.util.MixedCollection(false),
             addedRecords	: [],
             remoteLookup	: [],
-            hideTrigger     : true,
+            hideTrigger     : false, // default is true
             grow            : false,
             resizable       : false,
             multiSelectMode : false,
